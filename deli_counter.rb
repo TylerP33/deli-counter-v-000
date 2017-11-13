@@ -16,4 +16,5 @@ def take_a_number(katz_deli, name)
 
   when katz_deli = []
     line
-  
+  end 
+end 
