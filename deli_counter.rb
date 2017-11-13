@@ -13,7 +13,7 @@ end
 
 def take_a_number(line, name)
 
-  case line(katz_deli)
+  case line
 
   when line = []
     array = []
