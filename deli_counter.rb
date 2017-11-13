@@ -15,10 +15,10 @@ def take_a_number(line, name)
 
   case line
 
-  when
-    katz_deli == [""]
+  when 
+    line == [""]
     array = []
-    katz_deli.each_with_index {|index, value| array << " #{value+1}. #{index}"}
+    line.each_with_index {|index, value| array << " #{value+1}. #{index}"}
     puts "The line is currently:#{array.join}"
 
 
