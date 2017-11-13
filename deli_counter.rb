@@ -11,10 +11,9 @@ def line(katz_deli)
     end
 end
 
-def take_a_number(katz_deli, name)
-  case katz_deli
+def take_a_number(line, name)
+  case line
 
-  when katz_deli = []
-    line
-  end
-end
+  when line = []
+    line.each_with_index{|index, value| "#{value+1}#{index}"
+    
