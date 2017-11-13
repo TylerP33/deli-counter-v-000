@@ -14,7 +14,7 @@ end
 def take_a_number(katz_deli)
 
   if katz_deli = []
-    puts "Welcome, #{name}. You are in #{index} line."
+    puts "Welcome, #{name}. You are in #{0..10} line."
   end
 
 
