@@ -20,7 +20,7 @@ def take_a_number(line, name)
     array = []
     katz_deli.each_with_index {|index, value| array << " #{value+1}. #{index}"}
     puts "The line is currently:#{array.join}"
-    
+
 
   end
 end
