@@ -12,11 +12,6 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-
-  if katz_deli == [""]
-    array = []
-    katz_deli.each_with_index {|index, value| array << "Welcome, #{index}. You are number#{value+1} in line"}
-    puts "Welcome #{name}, you are number #{array} in line."
-
-  end
-end
+  array << name
+  puts "Welcome, #{name}.  You are number #{array.length}"
+end 
