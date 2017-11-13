@@ -16,4 +16,6 @@ def take_a_number(line, name)
 
   when line = []
     line.each_with_index{|index, value| "#{value+1}#{index}"
-    
+    puts "Welcome, #{index}. You are number #{value} in line.
+  end 
+end     
