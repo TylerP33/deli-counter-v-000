@@ -16,7 +16,7 @@ def take_a_number(katz_deli, name)
   if katz_deli = []
     line.each_with_index do |index, name|
     puts "Welcome, #{name}. You are in #{index} line."
-  end 
+  end
 
 
   end
