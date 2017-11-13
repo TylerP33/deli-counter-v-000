@@ -15,7 +15,9 @@ def take_a_number(line, name)
   case line
 
   when line = []
-    line.each_with_index{|index, value| "#{value+1}#{index}"}
-    puts "Welcome, . You are number #{value} in line."
+    array = []
+    line.each_with_index{|index, value| array << "#{value+1}#{index}"}
+    puts "Welcome, #{array}"
+  
   end
 end
