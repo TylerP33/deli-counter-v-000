@@ -18,6 +18,6 @@ def take_a_number(line, name)
     array = []
     line.each_with_index{|index, value| array << "#{value+1}#{index}"}
     puts "Welcome, #{array}"
-  
+
   end
 end
