@@ -11,7 +11,7 @@ def line(katz_deli)
     end
 end
 
-def take_a_number(katz_deli)
+def take_a_number(katz_deli, name)
 
   if katz_deli = []
     line.each_with_index do |index, name|
