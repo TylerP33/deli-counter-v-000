@@ -12,6 +12,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
+  index = index + 1
   if katz_deli = []
     puts "Welcome, #{name}. You are number #{index }in line."
 
