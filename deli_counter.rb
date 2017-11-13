@@ -12,13 +12,13 @@ def line(katz_deli)
 end
 
 def take_a_number(line, name)
-  
+
   case line(katz_deli)
 
   when line = []
     array = []
     line.each_with_index{|index, value| array << "#{value+1}#{index}"}
     puts "Welcome, #{array}"
-  
+
   end
 end
