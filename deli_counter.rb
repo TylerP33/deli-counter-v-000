@@ -13,12 +13,14 @@ end
 
 def take_a_number(line, name)
 
-  case line(index, value)
+  case line
 
   when line = []
+    katz_deli == [""]
     array = []
-    line.each_with_index{|index, value| array << "#{value+1}#{index}"}
-    puts "Welcome, #{index}"
+    katz_deli.each_with_index {|index, value| array << " #{value+1}. #{index}"}
+    puts "The line is currently:#{array.join}"
+    
 
   end
 end
