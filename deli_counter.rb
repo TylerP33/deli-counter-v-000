@@ -13,14 +13,6 @@ end
 
 def take_a_number(line, name)
 
-  case line
-
-  when
-    line == [""]
-    array = []
-    line.each_with_index {|index, value| array << " #{value+1}. #{index}"}
-    puts "The line is currently:#{array.join}"
-
 
   end
 end
