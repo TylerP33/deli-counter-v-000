@@ -11,9 +11,9 @@ def line(katz_deli)
     end
 end
 
-def take_a_number(line, name)
+def take_a_number(katz_deli, name)
   if katz_deli = []
-    puts "Welcome, #{name}. You are number 1 in line."
+    puts "Welcome, #{name}. You are number  in line."
 
 
   end
