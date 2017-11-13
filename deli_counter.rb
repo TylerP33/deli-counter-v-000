@@ -11,10 +11,10 @@ def line(katz_deli)
     end
 end
 
-def take_a_number(katz_deli, name)
+def take_a_number(katz_deli)
 
   if katz_deli = []
-    line.each_with_index do |index, name|
+    katz_deli.each_with_index do |index, name|
     puts "Welcome, #{name}. You are in #{index} line."
   end
 
