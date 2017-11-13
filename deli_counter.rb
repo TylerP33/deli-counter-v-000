@@ -14,8 +14,7 @@ end
 def take_a_number(katz_deli, name, number)
 
   if katz_deli = []
-    katz_deli << "#{name}"
-    puts "Welcome, #{name}. You are #{number} in line."
+    puts "Welcome, #{name}. You are in line."
 
 
   end
